@@ -9,6 +9,6 @@ public class Star26 {
             System.out.print(i + " ");
         }
         System.out.println();
-        sc.close();  
+        sc.close();
     }
 }
