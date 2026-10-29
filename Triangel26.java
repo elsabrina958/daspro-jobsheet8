@@ -25,6 +25,6 @@ public class Triangel26 {
             i--;
             System.out.println();
         }
-        sc.close();
+        sc.close(); 
     }
 }
