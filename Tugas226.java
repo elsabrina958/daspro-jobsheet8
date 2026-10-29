@@ -4,17 +4,17 @@ public class Tugas226 {
         Scanner sc = new Scanner (System.in);
         System.out.print("Masukkan nilai n = ");
         int n = sc.nextInt();
+        int jumlahKeseluruhan = 0;
 
         for (int i = 1; i <= n; i++) {
              for (int j = 1; j <= n; j++) {
-             System.out.print(j + " ");
-             System.out.print(" ");
-             for (i = 1; i <= n; j += 2) {
-                System.out.print(i + " ");
-             }
+             System.out.printf("%4d", i * j);
+             jumlahKeseluruhan = jumlahKeseluruhan + i * j;
             }
+
          System.out.println();
         }
+        System.out.print("Jumlah seluruh angka: " +jumlahKeseluruhan);
             sc.close();
     }
 }
